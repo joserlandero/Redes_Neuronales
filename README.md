@@ -63,36 +63,4 @@ Dentro de cada proyecto, se encuentran los scripts individuales por framework:
 |---|----------|---------|------|------------|
 | — | — | — | — | En construcción |
 
-> La tabla se irá completando conforme se agreguen proyectos al repositorio.
 
----
-
-## Cómo Ejecutar los Scripts
-
-1. Clonar este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/deep-learning.git
-   cd deep-learning
-   ```
-2. Crear un entorno virtual local:
-   ```bash
-   python3 -m venv env
-   ```
-3. Activar el entorno:
-   ```bash
-   source env/bin/activate
-   ```
-4. Instalar las dependencias del proyecto que deseas ejecutar:
-   ```bash
-   pip install -r 01_redes_densas/01_clasificacion_iris/requirements.txt
-   ```
-
----
-
-## Roadmap
-
-- [x] Estructura base del repositorio
-- [ ] `00_fundamentos` — conceptos teóricos iniciales
-- [ ] Primer proyecto en `01_redes_densas`
-- [ ] Comparativa de tiempos de entrenamiento entre frameworks
-- [ ] Agregar notebooks `.ipynb` como alternativa a los scripts `.py`
