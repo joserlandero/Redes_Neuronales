@@ -34,7 +34,7 @@ El proyecto está organizado de manera jerárquica: primero por el tipo de arqui
 deep-learning/
 │
 ├── 00_fundamentos/               # Conceptos matemáticos y teóricos base
-│   ├── 01_gradiente_y_backprop/
+│   ├── 01_nucleo_del_aprendizaje/
 │   ├── 02_funciones_de_activacion/
 │   ├── 03_optimizadores/
 │   ├── 04_funciones_de_perdida/
