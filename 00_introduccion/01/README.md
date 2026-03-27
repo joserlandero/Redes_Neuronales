@@ -1,4 +1,4 @@
-# Redes Neuronales: Entendiendo los Fundamentos desde Cero
+# Redes Neuronales: Fundamentos
 
 Este documento explica de forma intuitiva cómo funciona una red neuronal por dentro, recorriendo cada pieza del proceso con ejemplos numéricos concretos.
 
