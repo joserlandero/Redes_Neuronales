@@ -1,14 +1,8 @@
 # Regularización: Evitando que la Red Memorice
 
-Este documento explica de forma intuitiva qué es el overfitting, cómo detectarlo y las técnicas principales para combatirlo.
-
----
-
 ## ¿Qué es el overfitting?
 
-Imagina que un estudiante se prepara para un examen memorizando palabra por palabra las respuestas de exámenes anteriores, sin entender los conceptos. Si el nuevo examen tiene las mismas preguntas, le va perfecto. Pero si las preguntas cambian un poco, falla.
-
-Una red neuronal hace exactamente lo mismo cuando tiene **demasiada capacidad** (muchos parámetros) para los datos que tiene. En vez de aprender los patrones generales ("los tumores malignos tienden a ser más grandes e irregulares"), memoriza cada ejemplo individual del entrenamiento, incluyendo el ruido y las excepciones.
+Es cuando una red neuronal tiene **demasiados parametros** para los datos que tiene. En vez de aprender los patrones generales, memoriza cada ejemplo individual del entrenamiento, incluyendo el ruido y las excepciones.
 
 El resultado: accuracy altísimo en training, pero pésimo en datos nuevos.
 
